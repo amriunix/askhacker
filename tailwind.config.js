@@ -21,6 +21,11 @@ module.exports = {
         }
     },
     content: {
-        files: ['**/*.{ejs,md}', '**/widget/*.html', '**/js/main.js'],
+        files: [
+            './themes/**/*.ejs',
+            './source/**/*.md',
+            './source/widget/*.html',
+            './themes/**/js/main.js'
+        ],
     }
 };
