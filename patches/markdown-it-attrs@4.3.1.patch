@@ -1,0 +1,13 @@
+diff --git a/patterns.js b/patterns.js
+index e56a3b785df29e726194f2b30e86bb19a78ef902..c9701b8bb601bdb17d28d59a2226952fafbe1de4 100644
+--- a/patterns.js
++++ b/patterns.js
+@@ -172,6 +172,8 @@ module.exports = options => {
+         let idx = i - 2;
+         while (idx > 0 && 'tbody_open' !== tokens[--idx].type);
+ 
++        // Guard against missing meta property
++        if (!tokens[idx] || !tokens[idx].meta) { return; }
+         const calc = tokens[idx].meta.colsnum >> 0;
+         if (calc < 2) { return; }
+ 

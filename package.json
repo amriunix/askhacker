@@ -22,13 +22,13 @@
   "packageManager": "pnpm@9.15.4",
   "scripts": {
     "dev": "run-p dev:*",
-    "dev:hexo": "pnpm hexo clean && pnpm hexo server",
+    "dev:hexo": "NODE_NO_WARNINGS=1 pnpm hexo clean && NODE_NO_WARNINGS=1 pnpm hexo server",
     "dev:css": "pnpm postcss themes/coo/source/css/style.tailwindcss -o themes/coo/source/css/style.css --watch",
     "build": "run-s build:*",
-    "build:clean": "pnpm hexo clean",
+    "build:clean": "NODE_NO_WARNINGS=1 pnpm hexo clean",
     "build:rm-db.json": "rm db.json || exit 0",
     "build:css": "pnpm postcss themes/coo/source/css/style.tailwindcss -o themes/coo/source/css/style.css",
-    "build:generate": "pnpm hexo generate",
+    "build:generate": "NODE_NO_WARNINGS=1 pnpm hexo generate",
     "build:gulp": "pnpm gulp --max-old-space-size=4096"
   },
   "hexo": {
@@ -91,5 +91,10 @@
     "tailwindcss": "^3.4.19",
     "tailwindcss-animate": "^1.0.7",
     "tailwindcss-cli": "^0.1.2"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "markdown-it-attrs@4.3.1": "patches/markdown-it-attrs@4.3.1.patch"
+    }
   }
 }

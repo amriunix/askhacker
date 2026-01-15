@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  markdown-it-attrs@4.3.1:
+    hash: 7ikxl4piiotva4nzdwnvucc46i
+    path: patches/markdown-it-attrs@4.3.1.patch
+
 importers:
 
   .:
@@ -88,7 +93,7 @@ importers:
         version: 8.6.7(@types/markdown-it@14.1.2)(markdown-it@11.0.1)
       markdown-it-attrs:
         specifier: ^4.3.1
-        version: 4.3.1(markdown-it@11.0.1)
+        version: 4.3.1(patch_hash=7ikxl4piiotva4nzdwnvucc46i)(markdown-it@11.0.1)
       markdown-it-checkbox:
         specifier: ^1.1.0
         version: 1.1.0
@@ -7986,7 +7991,7 @@ snapshots:
       '@types/markdown-it': 14.1.2
       markdown-it: 11.0.1
 
-  markdown-it-attrs@4.3.1(markdown-it@11.0.1):
+  markdown-it-attrs@4.3.1(patch_hash=7ikxl4piiotva4nzdwnvucc46i)(markdown-it@11.0.1):
     dependencies:
       markdown-it: 11.0.1
 
