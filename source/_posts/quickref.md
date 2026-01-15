@@ -25,11 +25,11 @@ Getting Started
     ```
 - Install Dependencies in the project directory
     ```shell script
-    $ npm install
+    $ pnpm install
     ```
 - Start a Dev Server [http://localhost:4000](http://localhost:4000)
     ```shell script
-    $ npm run dev
+    $ pnpm run dev
     ```
 - Create or modify `source/_posts/{name}.md`
 - Send us pull request and chill

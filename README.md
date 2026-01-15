@@ -74,8 +74,8 @@ We welcome contributions from the cybersecurity community! Whether you want to a
 
 1. Fork the repository
 2. Clone your fork: `git clone https://github.com/YOUR-USERNAME/askhacker.git`
-3. Install dependencies: `npm install`
-4. Start the dev server: `npm run dev`
+3. Install dependencies: `pnpm install`
+4. Start the dev server: `pnpm run dev`
 5. Create or edit cheat sheets in `source/_posts/`
 6. Submit a pull request
 
@@ -106,13 +106,13 @@ For detailed formatting guidelines, see [https://askhacker.com/quickref](https:/
 
 ```bash
 # Install dependencies
-npm install
+pnpm install
 
 # Start development server (http://127.0.0.1:4000)
-npm run dev
+pnpm run dev
 
 # Build for production
-npm run build
+pnpm run build
 ```
 
 ## Acknowledgments
