@@ -95,6 +95,9 @@
   "pnpm": {
     "patchedDependencies": {
       "markdown-it-attrs@4.3.1": "patches/markdown-it-attrs@4.3.1.patch"
+    },
+    "overrides": {
+      "undici": "^6.21.2"
     }
   }
 }
