@@ -860,7 +860,7 @@ Used by Facebook, Instagram, Pinterest, LinkedIn, etc.
 ### Twitter Cards
 ```html
 <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@FechinLi">
+<meta name="twitter:site" content="@amriunix">
 <meta name="twitter:title" content="HTML cheatsheet">
 <meta name="twitter:url" content="https://askhacker.com/html">
 <meta name="twitter:description" content="Description of this page">

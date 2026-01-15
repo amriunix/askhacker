@@ -1,9 +1,9 @@
 ---
 name: Cheatsheet request
-about: For request cheatsheet and reference.
+about: Request a new cybersecurity cheatsheet or reference.
 title: 'Cheatsheet request: '
 labels: request
-assignees: Fechin
+assignees: amriunix
 ---
 
 

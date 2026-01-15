@@ -19,9 +19,9 @@ Getting Started
 
 ### Develop Setup
 
-- Clone Repository [View on Github](https://github.com/Fechin/reference.git)
+- Clone Repository [View on Github](https://github.com/amriunix/askhacker)
     ```shell script {.wrap}
-    $ git clone https://github.com/Fechin/reference.git
+    $ git clone https://github.com/amriunix/askhacker.git
     ```
 - Install Dependencies in the project directory
     ```shell script
@@ -34,8 +34,8 @@ Getting Started
 - Create or modify `source/_posts/{name}.md`
 - Send us pull request and chill
 {.marker-timeline}
- 
-It's a good practice to refer to the source code of the [CheatSheets reference](https://github.com/Fechin/reference/blob/main/source/_posts/quickref.md).
+
+It's a good practice to refer to the source code of the [CheatSheets reference](https://github.com/amriunix/askhacker/blob/main/source/_posts/quickref.md).
 
 
 

@@ -3,25 +3,27 @@ recent_posts_limits: 4
 
 # The categories and order displayed on the home page
 index_categories:
-  - Programming
-  - Toolkit
-  - Operating System
+  - Penetration Testing
+  - Web Security
+  - Network Security
+  - Forensics
+  - Cryptography
+  - Malware Analysis
   - Linux Command
-  - Python
-  - Database
-  - Keyboard Shortcuts
+  - Toolkit
+  - Programming
   - Other
 
 # Home recommended posts
 index_recommends:
-  - chatgpt
   - bash
-  - python
-  - javascript
-  - go
+  - nc
+  - curl
+  - ssh
   - vim
   - regex
-  - awk
+  - grep
+  - git
 
 
 # Related popular posts

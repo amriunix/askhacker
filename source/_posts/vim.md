@@ -35,7 +35,7 @@ Getting Started
 │  │  ││ │ ┌── b      e ─┐ │ │  ││    │
 │  │  ││ │ │  ┌h      l┐ │ │ │  ││    │
 ▽  ▽  ▽▽ ▽ ▽  ▽▼      ▼▽ ▽ ▽ ▽  ▽▽    ▽
-   echo "A cheatsheet from quickref.me"
+   echo "A cheatsheet from askhacker.com"
 ```
 #### Up-down motions
 ```bash

@@ -1,6 +1,23 @@
 {
   "name": "askhacker",
   "version": "1.0.0",
+  "description": "AskHacker - Cybersecurity Cheatsheets for security professionals, penetration testers, and CTF players",
+  "author": "amriunix",
+  "license": "MIT",
+  "homepage": "https://askhacker.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amriunix/askhacker.git"
+  },
+  "keywords": [
+    "cybersecurity",
+    "cheatsheet",
+    "hacking",
+    "penetration-testing",
+    "security",
+    "infosec",
+    "ctf"
+  ],
   "private": true,
   "scripts": {
     "dev": "run-p dev:*",
