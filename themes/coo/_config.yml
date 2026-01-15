@@ -12,17 +12,28 @@ index_categories:
   - Keyboard Shortcuts
   - Other
 
+# Example of custom order for security categories
+#  - Penetration Testing
+#  - Web Security
+#  - Network Security
+#  - Forensics
+#  - Cryptography
+#  - Malware Analysis
+#  - Linux Command
+#  - Toolkit
+#  - Programming
+#  - Other
+
 # Home recommended posts
 index_recommends:
-  - chatgpt
   - bash
-  - python
-  - javascript
-  - go
+  - nc
+  - curl
+  - ssh
   - vim
   - regex
-  - awk
-
+  - grep
+  - git
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts

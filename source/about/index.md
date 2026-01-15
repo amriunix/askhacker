@@ -3,31 +3,35 @@ title: About
 date: 2020-03-26 20:45:53
 ---
 
-Welcome to [QuickRef] – your go-to resource for [describing content]. Designed with [developers/students/professionals] in mind, our quick reference provides a comprehensive collection of [topics/sections] to help you [solve problems/learn efficiently/etc.].
+Welcome to **AskHacker** – your go-to resource for cybersecurity cheat sheets and quick references. Designed with security professionals, penetration testers, CTF players, and cybersecurity enthusiasts in mind, AskHacker provides a comprehensive collection of cheat sheets to help you work more efficiently in offensive and defensive security.
 
-Our user-friendly interface ensures rapid access to the information you need. Whether you're [coding/studying/working], you'll find [specific benefits or standout features].
+Our user-friendly interface ensures rapid access to the information you need. Whether you're conducting a penetration test, analyzing malware, responding to incidents, or learning security fundamentals, you'll find well-organized references at your fingertips.
 
-Key Features:
-- Users can grasp essential concepts or instructions in a short period, making cheat sheets ideal for learning on the go.
+## Key Features
 
-- By offering quick access to frequently used information, cheat sheets boost productivity by reducing the need to search or look up details repeatedly.
+- **Wide Range of Topics**: From penetration testing and web security to forensics and cryptography, our cheat sheets cover various domains within cybersecurity.
 
-- Cheat sheets often organize information in a structured format, making it easier for users to follow steps or understand relationships between concepts.
+- **Community-Driven Updates**: Powered by contributions from cybersecurity professionals and enthusiasts around the globe.
 
-- Quality cheat sheets are often updated to reflect the latest information, ensuring accuracy and relevance.
+- **Quick Reference Format**: Grasp essential commands, techniques, and concepts quickly – ideal for use during engagements or CTF competitions.
 
-- Cheat sheets can be used as study aids, helping learners memorize key information, formulas, or concepts.
-  
-- In programming or technical fields, cheat sheets offer quick syntax references, ensuring proper code usage.
+- **Always Accessible**: Digital cheat sheets are easily searchable, helping you find what you need using keywords or phrases.
 
-- By avoiding the need to seek through lengthy documentation, cheat sheets save users valuable time during tasks or learning.
+- **Open Source**: AskHacker is built on an open-source framework, ensuring transparency and continuous improvement.
 
-- Digital cheat sheets are easily searchable, and users can quickly find what they need by using keywords or phrases.
+## Topics We Cover
 
-- QuickRef Cheat sheets act as a rapid review tool, allowing users to refresh their memory on topics they've previously learned.
+- **Penetration Testing**: Tools, techniques, and methodologies for ethical hacking
+- **Web Security**: OWASP vulnerabilities, injection attacks, and web exploitation
+- **Network Security**: Scanning, enumeration, and network-based attacks
+- **Forensics**: Digital forensics tools and investigation techniques
+- **Cryptography**: Encryption, hashing, and cryptographic attacks
+- **Malware Analysis**: Static and dynamic analysis techniques
+- **Linux Commands**: Essential command-line tools for security professionals
+- **Security Tools**: Quick references for popular security tools
 
-Our team of experts has meticulously crafted this reference to provide instant information. We're committed to evolving our content to meet your needs and bring out fascinating upgrades in the future.
+## Contributing
 
-Start exploring now and make [https://quickref.me/] your trusted companion in [area/topic]!!
+We encourage you to share your own cheat sheets with the community. Visit our [GitHub repository](https://github.com/amriunix/askhacker) to contribute.
 
-Have feedback or suggestions? Reach out to us at [https://twitter.com/FechinLi].
+Have feedback or suggestions? Reach out to us on [Twitter/X](https://twitter.com/amriunix) or open an issue on GitHub.
