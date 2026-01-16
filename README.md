@@ -73,7 +73,7 @@ We welcome contributions from the cybersecurity community! Whether you want to a
 ### How to Contribute
 
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/YOUR-USERNAME/askhacker.git`
+2. Clone your fork: `git clone https://github.com/amriunix/askhacker.git`
 3. Install dependencies: `pnpm install`
 4. Start the dev server: `pnpm run dev`
 5. Create or edit cheat sheets in `source/_posts/`
